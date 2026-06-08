@@ -1,0 +1,104 @@
+:root {
+    --fundo-principal: #0b0b12;
+    --fundo-card: #13131f;
+    --fundo-input: #181826;
+    --cor-primaria: #7c4dff;
+    --cor-primaria-variacao: #651fff;
+    --texto-principal: #ffffff;
+    --texto-secundario: #9e9eaf;
+    --texto-mutado: #616173;
+    --borda: #222235;
+    --html-laranja: #e34f26;
+    --css-azul: #1572b6;
+    --js-amarelo: #f7df1e;
+    --ts-azul: #3178c6;
+    --react-celeste: #61dafb;
+    --git-laranja: #f05032;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.meu-nome {
+    display: flex;
+    flex: 1.2;
+    color: var(--texto-principal);
+    font-size: 0.80rem
+}
+
+.meu-nome span {
+    color: var(--cor-primaria-variacao);
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.nav a {
+    position: relative;
+    text-decoration: none;
+    color: var(--texto-principal);
+    transition: color 0.3s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.nav a:hover {
+    color: var(--cor-primaria);
+}
+
+.nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: var(--cor-primaria-variacao);
+    transition: width 0.5s ease;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+
+.nav-btn {
+    margin: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn .btn-cv {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-cv {
+    background-color: var(--fundo-card);
+    color: var(--texto-principal);
+    border-color: var(--cor-primaria-variacao);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.btn-cv:hover {
+    color: var(--cor-primaria);
+    filter: brightness(1.1);
+    transform: translateY(-5px);
+}

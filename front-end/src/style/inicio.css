@@ -1,0 +1,122 @@
+:root {
+    --fundo-principal: #0b0b12;
+    --fundo-card: #13131f;
+    --fundo-input: #181826;
+    --cor-primaria: #7c4dff;
+    --cor-primaria-variacao: #651fff;
+    --texto-principal: #ffffff;
+    --texto-secundario: #9e9eaf;
+    --texto-mutado: #616173;
+    --borda: #222235;
+    --html-laranja: #e34f26;
+    --css-azul: #1572b6;
+    --js-amarelo: #f7df1e;
+    --ts-azul: #3178c6;
+    --react-celeste: #61dafb;
+    --git-laranja: #f05032;
+}
+
+.inicio-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: var(--texto-principal);
+    padding: 50px;
+}
+
+.nav-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
+}
+
+.minha-imagem {
+    width: 40%;
+}
+
+.minha-imagem img {
+    height: 500px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center,
+            rgba(124, 77, 255, 0.5) 0%,
+            rgba(101, 31, 255, 0.3) 25%,
+            rgba(11, 11, 18, 0.95) 70%,
+            #0b0b12 100%);
+}
+
+.descritivo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descritivo span {
+    color: var(--cor-primaria-variacao);
+}
+
+.descritivo h1 {
+    font-size: 4rem;
+}
+
+.nav-projetos-contato {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-projetos-contato a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: var(--texto-principal);
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-projetos-contato a::after {
+    content: "";
+    position: absolute;
+    left: 15%;
+    bottom: -2px;
+    width: 70%;
+    height: 2px;
+    transition: all 0.5s ease;
+    background-color: var(--cor-primaria-variacao);
+}
+
+.nav-projetos-contato a:hover::after {
+    width: 0%;
+}
+
+.nav-projetos-contato a:hover {
+    background-color: var(--cor-primaria);
+    transform: translateY(-5px);
+    filter: brightness(1.2);
+}
+
+.nav-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-redes-sociais a {
+    color: var(--texto-principal);
+    font-size: 2rem;
+    margin: 10px;
+}

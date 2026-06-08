@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --fundo-principal: #0b0b12;
+  --fundo-card: #13131f;
+  --fundo-input: #181826;
+  --cor-primaria: #7c4dff;
+  --cor-primaria-variacao: #651fff;
+  --texto-principal: #ffffff;
+  --texto-secundario: #9e9eaf;
+  --texto-mutado: #616173;
+  --borda: #222235;
+  --html-laranja: #e34f26;
+  --css-azul: #1572b6;
+  --js-amarelo: #f7df1e;
+  --ts-azul: #3178c6;
+  --react-celeste: #61dafb;
+  --git-laranja: #f05032;
+}
+
+body {
+    background-color: var(--fundo-principal);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

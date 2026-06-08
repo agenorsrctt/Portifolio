@@ -1,0 +1,95 @@
+:root {
+    --fundo-principal: #0b0b12;
+    --fundo-card: #13131f;
+    --fundo-input: #181826;
+    --cor-primaria: #7c4dff;
+    --cor-primaria-variacao: #651fff;
+    --texto-principal: #ffffff;
+    --texto-secundario: #9e9eaf;
+    --texto-mutado: #616173;
+    --borda: #222235;
+    --html-laranja: #e34f26;
+    --css-azul: #1572b6;
+    --js-amarelo: #f7df1e;
+    --ts-azul: #3178c6;
+    --react-celeste: #61dafb;
+    --git-laranja: #f05032;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--borda);
+}
+
+.nav-conteudo-sobre {
+    display: flex;
+    flex-direction: row;
+    color: var(--texto-principal);
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+.nav-sobre h2 {
+    color: var(--cor-primaria);
+}
+
+.nav-sobre a {
+    display: flex;
+    text-decoration: none;
+    color: var(--texto-principal);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--cor-primaria-variacao);
+    width: 40%;
+    transition: all 0.5s ease;
+}
+
+.nav-sobre a:hover {
+    transform: translateY(-5px);
+    background-color: var(--cor-primaria);
+}
+
+.nav-sobre-destaques {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-card);
+    width: 50%;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.nav-sobre-destaques div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-sobre-destaques div span {
+    padding: 10px 20px;
+    border: 1px solid var(--cor-primaria-variacao);
+    border-radius: 20px;
+    background-color: var(--fundo-input);
+}
+
+.nav-sobre-destaques div div {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.nav-sobre-destaques div div h1 {
+    font-size: 1.5rem;
+}
