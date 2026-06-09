@@ -77,11 +77,8 @@ hr {
     gap: 20px;
 }
 
-.nav-sobre-destaques div span {
-    padding: 10px 20px;
-    border: 1px solid var(--cor-primaria-variacao);
-    border-radius: 20px;
-    background-color: var(--fundo-input);
+#foco, #aprendizado, #problemas {
+    color: var(--cor-primaria-variacao);
 }
 
 .nav-sobre-destaques div div {

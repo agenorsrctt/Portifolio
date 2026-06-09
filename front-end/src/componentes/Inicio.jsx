@@ -12,8 +12,8 @@ export function Inicio() {
             <div className="inicio-conteudo">
                 <div className="nav-conteudo">
                     <div className="descritivo">
-                        <h2><span>Olá, eu sou</span></h2>
-                        <h1>Age<span>nor</span></h1>
+                        <h2><span>OLÁ, EU SOU</span></h2>
+                        <h1>Agenor <span>S. Rodrigues</span></h1>
                         <h3>Desenvolvedor Web</h3>
                         <p>Sou desenvolvedor web, apaixonado por criar experiências digitais modernas, responsivas e com foco em perfomance e usabilidade.</p>
                     </div>

@@ -9,7 +9,7 @@ export function Sobre() {
             <hr />
             <div className="nav-conteudo-sobre">
                 <div className="nav-sobre">
-                    <h2>Sobre mim</h2>
+                    <h2>SOBRE MIM</h2>
                     <h1>Quem sou eu?</h1>
                     <p>
                         Sou um desenvolver full-stack com foco em criar interfaces modernas, acessiveis e responsivas. Tenho experiências com HTML, CSS, JavaScript e frameworks como React.
@@ -24,7 +24,7 @@ export function Sobre() {
                 <div className="nav-sobre-destaques">
 
                     <div>
-                        <span><DiCodeBadge size={50}/></span>
+                        <DiCodeBadge size={50} id="foco"/>
                         <div>
                             <h1>Foco em detalhes</h1>
                             <p>
@@ -34,7 +34,7 @@ export function Sobre() {
                     </div>
 
                     <div>
-                        <span><GoBook size={50}/></span>
+                        <GoBook size={50} id="aprendizado"/>
                         <div>
                             <h1>Sempre aprendendo</h1>
                             <p>
@@ -44,7 +44,7 @@ export function Sobre() {
                     </div>
 
                     <div>
-                        <span><HiOutlinePuzzlePiece size={50} /></span>
+                        <HiOutlinePuzzlePiece size={50} id="problemas"/>
                         <div>
                             <h1>Resolução de problemas</h1>
                             <p>

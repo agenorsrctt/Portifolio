@@ -1,0 +1,75 @@
+:root {
+    --fundo-principal: #0b0b12;
+    --fundo-card: #13131f;
+    --fundo-input: #181826;
+    --cor-primaria: #7c4dff;
+    --cor-primaria-variacao: #651fff;
+    --texto-principal: #ffffff;
+    --texto-secundario: #9e9eaf;
+    --texto-mutado: #616173;
+    --borda: #222235;
+    --html-laranja: #e34f26;
+    --css-azul: #1572b6;
+    --js-amarelo: #f7df1e;
+    --ts-azul: #3178c6;
+    --react-celeste: #61dafb;
+    --git-laranja: #f05032;
+}
+
+
+.habilidades .titulo-h1 {
+    padding: 30px 50px;
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+}
+
+.habilidades .titulo-h2 {
+    padding: 5px 50px;
+    color: var(--texto-principal);
+    font-size: 2rem;
+}
+
+
+.tecnologias-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--texto-secundario);
+    padding: 50px;
+}
+
+.tecnologias-cards .tecnologias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias-cards .tecnologias span {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#html {
+    color: var(--html-laranja);
+} 
+#javascript, #python {
+    color: var(--js-amarelo);
+}
+
+#css, #react, #mysql {
+    color: var(--react-celeste);
+}
+
+#node{
+    color: green;
+}
+
+#java {
+    color: red;
+}
